@@ -1,0 +1,159 @@
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Roboto&display=swap');
+
+/* #hero {
+    margin-top: -80px;
+} */
+
+.hero-content {
+    margin: 100px 0 0 0;
+}
+
+@media (max-width: 992px) {
+    #hero .container {
+        padding-top: 58px;
+    }
+}
+
+#hero h1 {
+    margin: 0;
+    padding-left: 0px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #222222;
+}
+
+#hero h2 {
+    padding-right: 10px;
+    color: #6f6f6f;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+#hero img {
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+
+.btn-about {
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 20px;
+    transition: 0.5s;
+    margin-top: 20px;
+    color: #fff !important;
+    background: #329d9c;
+}
+
+.btn-about:hover {
+    background: #205072;
+    color: #fff !important;
+}
+
+@media (min-width: 1024px) {
+    #hero {
+        background-attachment: fixed;
+    }
+}
+
+@media (max-width: 992px) {
+    #hero:before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        color: #ffff;
+    }
+
+    #hero h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    #hero h2 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .hero-content {
+        margin-top: 10px;
+    }
+
+    #reverse {
+        flex-direction: column-reverse;
+    }
+
+    #hero .text-1 {
+        font-size: 20px !important;
+        color: #ffff;
+        letter-spacing: 2px;
+    }
+
+    #hero .text-2 {
+        margin-top: -10px;
+        font-size: 55px !important;
+        font-weight: 600;
+        color: #ffff;
+    }
+
+    #hero .text-3 {
+        font-size: 13px !important;
+        color: #ffff;
+        text-align: left;
+        letter-spacing: 1px;
+    }
+
+    #hero .btn-about {
+        font-weight: 600;
+        font-size: 16px !important;
+        letter-spacing: 1px;
+        display: inline-block;
+        padding: 12px 40px;
+        border-radius: 20px;
+        transition: 0.5s;
+        margin-top: 20px;
+        color: #fff;
+    }
+
+    .pdf {
+        margin-top: 30px;
+    }
+}
+
+#hero .text-1 {
+    font-size: 20px;
+    color: #ffff;
+    letter-spacing: 2px;
+}
+
+#hero .text-2 {
+    margin-top: -10px;
+    font-size: 70px;
+    font-weight: 600;
+    color: #ffff;
+}
+
+#hero .text-3 {
+    font-size: 17px;
+    color: #ffff;
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+text-align: left;
+letter-spacing: 1px;
+
+}
